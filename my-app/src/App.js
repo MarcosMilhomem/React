@@ -5,7 +5,8 @@ import SayMyName from './components/SayMyName';
 function App() {
   const name = 'Mateus'
   const NewName = name.toUpperCase()
-
+  const nome = "Depay"
+  
   function sum(a, b) {
     return a + b
   }
@@ -20,7 +21,8 @@ function App() {
       <p>Soma: {sum(1, 2)}</p>
       <img src={url} alt="My image" />
       <HelloWorld/>
-      <SayMyName/>
+      <SayMyName nome="Apolo"/>
+      <SayMyName nome={nome}/>
     </div>
   );
 }
