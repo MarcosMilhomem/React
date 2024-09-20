@@ -1,5 +1,8 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Home from './components/pages/Home';
+import Company from './components/pages/Company';
+import Contact from './components/pages/Contact';
+import NewProject from './components/pages/NewProject';
 
 function App() {
   return (
@@ -12,7 +15,7 @@ function App() {
       <Route exac path="/" element={<Home/>}/>
       <Route path="/company" element={<Company/>}/>
       <Route path="/contact" element={<Contact/>}/>
-      <Route path="/newwproject" element={<NewProject/>}/>
+      <Route path="/newproject" element={<NewProject/>}/>
 
       <p>Footer</p>
     </Router>
@@ -20,3 +23,4 @@ function App() {
 }
 
 export default App;
+limpar o fogão
