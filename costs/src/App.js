@@ -4,8 +4,6 @@ import Company from './components/pages/Company';
 import Contact from './components/pages/Contact';
 import NewProject from './components/pages/NewProject';
 
-import Container from './components/pages/layout/Container'; 
-
 function App() {
   return (
     <Router>
