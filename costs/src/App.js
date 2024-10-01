@@ -3,6 +3,7 @@ import Home from './components/pages/Home';
 import Company from './components/pages/Company';
 import Contact from './components/pages/Contact';
 import NewProject from './components/pages/NewProject';
+import Container from './components/pages/layout/Container';
 
 function App() {
   return (
@@ -14,12 +15,14 @@ function App() {
         <Link to="/newproject">Novo Projeto</Link>
       </ul>
 
+      <Container customClass="min-height">
       <Routes>
         <Route exac path="/" element={<Home />} />
         <Route path="/company" element={<Company />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/newproject" element={<NewProject />} />
       </Routes>
+    </Container> 
       <p>Footer</p>
     </Router>
   );
