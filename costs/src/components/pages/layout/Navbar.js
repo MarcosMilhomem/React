@@ -5,17 +5,17 @@ import logo from '../../../img/costs_logo.png'
 
 function Navbar() {
     return (
-        <ul>
+        <nav>
             <Container>
                 <Link to="/">
-                    <img scr={logo} alt="logo Costs"/>
+                    <img scr={logo} alt="Costs"/>
                 </Link>
                 <Link to="/">Home</Link>
                 <Link to="/contact">Contato</Link>
                 <Link to="/company">Empresa</Link>
                 <Link to="/newproject">Novo Projeto</Link>
             </Container>
-        </ul>
+        </nav>
     )
 }
 
