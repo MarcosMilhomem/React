@@ -19,7 +19,7 @@ function Footer() {
                 </li>
             </ul>
             <p className={styles.copy_right}>
-                <span>Costs</span> &copy; 2024
+                <span>Costs</span> &copy; 2024 
             </p>
         </footer>
     )
