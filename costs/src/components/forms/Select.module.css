@@ -1,6 +1,6 @@
 .form_control {
     display: flex;
-    margin-bottom: 1 em;
+    margin-bottom: 1em;
     flex-direction: column;
 }
 
